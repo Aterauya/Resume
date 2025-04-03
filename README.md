@@ -1,7 +1,7 @@
 # **Adam Duboczky**  
 **Full-stack Software Engineer**  
 📍 Redcar, Teesside  
-📞 07479221161 | 🔗 [LinkedIn](https://www.linkedin.com/in/adam-duboczky) | 🌐 [Website](https://adamduboczky.co.uk/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/adam-duboczky) | 🌐 [Website](https://adamduboczky.co.uk/)  
 
 ---
 
