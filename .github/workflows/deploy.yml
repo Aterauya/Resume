@@ -26,20 +26,12 @@ jobs:
         run: |
           pandoc README.md -o index.html --standalone --metadata title="Adam Duboczky - Resume"
 
-      - name: Upload Artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: "."
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Setup GitHub Pages
+        run: |
+          mkdir public
+          mv index.html public/
+      
+      - name: Upload to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          folder: public
