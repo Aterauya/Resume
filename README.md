@@ -21,10 +21,15 @@ Passionate Full-stack Developer with experience in billion-dollar industries suc
 
 ### **Tracerco** – *Full-stack Software Developer*  
 📍 Billingham, UK (Hybrid) | 📅 Dec 2023 – Present  
-- Developed **Dosevision**, a .NET 9, Angular, and TypeScript platform for monitoring radiation exposure for critical workers.  
-- Established a **standardized project framework** with templates, pipelines, and IaC, now used across multiple projects.  
-- Designed and delivered **Connected Instruments**, a diagnostic platform that saved costs by replacing paid component libraries with **custom-built HTML components**. Projected to generate **£3M annually**.  
-- Created a **front-end fuel tracking demo** in 4 weeks, replacing Power BI dashboards, with **full right-to-left Arabic support**.  
+- Began working on **Dosevision**, a .NET 9, Angular, and TypeScript platform for monitoring **personal radiation doses** via the **Tracerco Personal Dosimeter**. This system supports **critical workers**, including **firefighters, the military, and nuclear plant staff**.  
+- While developing **Connected Instruments**, a **.NET 9, Angular, and TypeScript** diagnostic platform, I established a **standardized project framework** with **development templates, build pipelines, and Infrastructure as Code (IaC)**, now used across multiple in-flight projects.  
+- Built **Connected Instruments** **from the ground up**, managing everything from **Azure resource provisioning to final delivery**.  
+  - Shifted the team’s approach from using **paid component libraries (Kendo)** to **custom-built/native HTML components**, reducing costs and accelerating development.  
+  - Delivered **on time and under budget**, with the platform projected to generate **£3M annually**.  
+- Developed a **feature-rich front-end fuel tracking demo** in just **four weeks**, replacing **Power BI sales dashboards**.  
+  - Collaborated with **business directors** to gather requirements.  
+  - Ensured **full right-to-left Arabic support** before final delivery.  
+
 
 ### **Synectics** – *Front-end Software Developer*  
 📍 Sheffield, UK (Remote) | 📅 Sep 2022 – Nov 2023  
