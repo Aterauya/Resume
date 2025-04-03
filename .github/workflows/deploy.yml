@@ -1,9 +1,9 @@
-name: Deploy Resume to GitHub Pages
+name: Deploy README to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Runs the workflow when you push to `main`
+      - main  # Runs when pushing to main
   workflow_dispatch:  # Allows manual execution
 
 permissions:
@@ -22,14 +22,14 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get install -y pandoc
 
-      - name: Convert Markdown to HTML
+      - name: Convert README.md to index.html
         run: |
           pandoc README.md -o index.html --standalone --metadata title="Adam Duboczky - Resume"
 
-      - name: Upload Artifact
+      - name: Upload Artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "index.html"
+          path: "."
 
   deploy:
     needs: build
